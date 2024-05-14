@@ -1,6 +1,6 @@
-const express = require('express');
-const fs = require('fs');
-const path = require('path');
+const express = require('express');// Import the express module to create an express application
+const fs = require('fs');// Import the fs module to handle file system operations
+const path = require('path'); // Import the path module to handle and transform file paths
 const { v4: uuidv4 } = require('uuid'); // Use uuidv4 to generate unique IDs
 
 const nr = express.Router(); // Using express.Router()
